@@ -78,6 +78,14 @@
     	
     }
 
+    function compare(){
+    var numA=document.getElementById("numA").value;
+    var numB=document.getElementById("numB").value;
+    var comp=Number(numA) == Number(numB);
+    window.alert('A equal to B is: ' + comp );
+    	
+    }
+
     </script>
 
     <br><br><br>
@@ -104,8 +112,16 @@
 	    <div class="col-md-6 d-grid">
 	    <button onclick="quotient()" type="submit" class="btn btn-info btn-block">Find the quotient (division)</button>
 	    </div>
-  
+
+</div>
+<br>
+	<div class="row">
+
+		<div class="col-md-6 d-grid">
+    	<button onclick="quotient()" type="submit" class="btn btn-info btn-block">Is a equal to b?</button>
     </div>
+</div>
+</div>
 
 </body>
 </html>
